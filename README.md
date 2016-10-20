@@ -1,2 +1,2 @@
 # codility
-My Codylity solutions
+My Codility solutions
