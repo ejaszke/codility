@@ -10,11 +10,7 @@ function solution(N) {
     const res = [];
 
     [...num].reduce( (prev, curr) => {
-     if (curr === '1') {
-      res.push(prev);
-      return 0;
-     }
-     return ++prev;
+        return curr === '1' ? res.push(prev) * 0 : ++prev;
      }, 0);
 
      return Math.max(...res);
